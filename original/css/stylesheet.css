@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}*/
+/*<!-- ここからtop -->*/
+
+.top-wrapper {
+ background-image: url(../img/TOP_pexels-photo-185933.jpeg);
+ background-size :cover;
+  width:100%;
+  height:100vh;
+  margin: 0 auto;
+  opacity:0.8;
+
+ }
+
+.container {
+  height: 450px;
+  width:300px;
+  position: fixed;
+
+
+}
+
+.top-logo{
+	/*background-color: white;*/
+    display: block;
+	font-size:62px;
+	font-family:Monotype Corsiva;
+	padding-top:100px;
+	margin-left:50px;		
+	color:black;
+
+}
+
+
+.contents {
+	/*background-color: blue;*/
+	font-family:Bookman Old Style;
+	position:left;
+	margin-top:30px;
+	margin-left:50px;
+	padding:10px,o;
+}
+
+ul {
+	/*color:#696969;*/
+	list-style: none;
+	font-family:Bookman Old Style;
+	font-weight: normal;
+	line-height: 38px;
+	font-size: 23px	
+}
+
+
+a {
+	color:darkslategray;
+    text-decoration: none;
+}
+
+
+
+/*<!-- ここからprofile -->*/
+
+.prf-wrapper {
+  width:100%;
+  height:680px;
+  background-color:#e6e6fa;
+  padding: 30px 20px;
+}
+
+
+h2 {	
+	font-family:Bookman Old Style;
+	font-weight:normal;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin: 50px;
+	/*border-bottom:1px solid #696969;4*/
+}	
+
+h2::after{
+	content: "";
+	display: block;
+	width: 70px;
+	height: 2px;
+	margin: 8px auto 0 auto;
+	background-color: #2f4f4f;
+}
+
+
+.icon {
+	display: block;
+	margin:0 auto;
+    
+}
+
+h3 {
+	font-family:Bookman Old Style;
+	font-size:19px;
+	margin: 10px;
+	text-align: center;
+	/*background-color: red;*/
+	font-weight: normal;
+}
+
+.name{
+	font-family:Bookman Old Style;
+	font-size:16px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.name-text {
+	/*background-color: red;*/
+	font-size:13px;
+	font-family:Yu Mincho;
+	text-align: center;
+	padding-bottom:80px;
+}
+
+
+
+/*<!-- ここからJournal/Life -->*/
+
+.journal-wrapper {
+	width:100%;
+	height: 680px;
+	background-color:#b0c4de;
+	padding: 30px 20px;
+}
+
+.journal-contents {
+	height: 500px;
+	width: 750px;
+    margin:0 auto;
+    padding:50px 0px;
+}
+
+
+.contents-item {
+	position: relative;
+	width:250px;
+	float:left;
+	padding: 0 50px;
+	/*margin-right:50px;*/
+ }
+
+
+ .contents-item p {
+ 	font-family:Bookman Old Style;
+ 	padding: 10px 0;
+ 	width:180px;
+    text-align: center;
+ 	/*background-color: red;*/
+ }
+
+
+.clearfix::after {
+  content: "";
+  display:  block
+  clear: both;
+}
+
+.Journal-icon {
+	width:180px;
+	height: 195px;
+	margin-right:50px;
+}
+
+.new{
+	position: absolute;
+	top:30px;
+	left:-30px
+	display:block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	color: white;
+	background-color:#6495ed;
+}
+
+
+/*<!-- ここからWorks -->*/
+
+.Works-wrapper {
+	width:100%;
+	height: 680px;
+	background-color:#c0c0c0;
+	padding: 30px 20px;
+}
+
+.Works-head {
+	font-family:Bookman Old Style;
+	font-weight:normal;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	margin: 20px;
+}
+
+
+.Works-contents {
+	height: 500px;
+	width: 750px;
+    margin:0 auto;
+    padding:50px 0px;
+}
+
+
+.contents-item {
+	font-family:Bookman Old Style;
+	width:250px;
+	float:left;
+	padding: 20px 50px;
+	/*margin-right:50px;*/
+ }
+
+
+ .contents-item p {
+ 	padding: 3px 0;
+ 	width:150px;
+    text-align: center;
+ 	/*background-color: red;*/
+ }
+
+
+.clearfix::after {
+  content: "";
+  display:  block
+    clear: both;
+}
+
+.Works-icon {
+	width:150px;
+	height: 150px;
+	margin-right:50px;
+}
+
+
+/*<!-- ここからContact -->*/
+.contact-wrapper {
+	width:100%;
+	height: 680px;
+	background-color:#ffff00;
+	padding: 30px 20px;
+}
+
+.contact-content {
+	height: 500px;
+	width: 750px;
+    margin:0 auto;
+    padding:50px 0px;
+}
+
+.body-text {
+	text-align: center;
+	font-family: Yu Mincho;
+}
+
+
+/*--ここからfooter--*/
+.copy-content{
+	background-color: #e6e6fa;
+}
+
+.copy-content p {
+	text-align: center;
+	font-size: 10px;
+	letter-spacing: 1px;
+	padding-bottom: 10px;
+	margin: 0 atuo;
+	padding-top: 10px;
+}
+
+
+
+
+/* =====================
+  Media Queries
+===================== */
+
+	@media(max-width: 1024px){
+
+
+/* =====================
+	  setting
+	===================== */
+	.top-wrapper{
+     background-image: url(../img/wild-flowers-flowers-plant-macro-40797.jpeg);
+	 height:500px;
+		}	
+
+    .top-logo {
+    	font-size:35px;
+    }
+
+/*    .menu-box{
+		display: block;
+	}*/
+
+	.contents ul{
+		font-size: 18px;
+		color: black;;
+	}
+
+/* =====================
+	  Prifile
+	===================== */
+ .name-text {
+   padding-bottom:30px;
+   }
+
+/* =====================
+	  jounal
+	===================== */
+
+	.contents-item {
+		float:none;
+	}
+
+	.contents-item p{
+		display: none;
+	}
+
+	h2 {	
+	padding-top: 10px;
+	padding-bottom: 5px;
+	margin: 5px;
+	}
+
+
+	.journal-contents {
+		width:300px;
+		padding:10px 0px;
+   
+	}
+
+	/*.jounal3{
+		display: none;
+	}
+
+*/
+
+/* =====================
+	  Woks
+	===================== */
+	.Works-contents {
+		width:250px;
+		padding:10px 0px;
+	}
+
+	.contents-item:nth-child(n+3){
+		display: none;
+	}
+
+/* =====================
+	  contact
+	===================== */
+    .contact-wrapper {
+    height: 500px;
+	padding-bottom:20px;
+}
+     .contact-content {
+	height: 300px;
+
+
+		}
+
+
+/* =====================
+  Media Queries
+===================== */
+
+@media(max-width: 768px){
+
+.top-wrapper{
+	 height:300px;
+		}	
+
+
+.top-logo{
+	font-size:35px;
+	padding-top:20px;
+	margin-left: :10px;	
+	}	
+
+.container {
+  position: static;
+
+}
+
+.contents li{
+	display: none;
+}
+/* =====================
+	Profile
+	===================== */
+
+.prf-wrapper {
+ padding: 20px 10px;
+}
+
+/* =====================
+	  contact
+	===================== */
+.contact-wrapper {
+	height: 500px;
+	padding: 20px 10px;
+}
+
+.contact-content {
+	height: 300px;
+	width: 400px;
+    padding:30px 0px;
+}
+
+.body-text {
+	font-size: 13px;
+	text-align:left;
+	padding-left: 5px;
+
+}
+
+.copy-content p {
+	font-size: 5px;
+
+}
+
+
+
+}
